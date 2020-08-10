@@ -148,7 +148,7 @@ p{
     line-height: 1.8;
 }
 
-.button{
+.button, button{
     
     border:none;
     padding: 16px 32px;
@@ -163,7 +163,7 @@ p{
     height:45px;
     
 }
-.button1{
+.button1, button{
     display:flex;
     background-color:#E9E9E9;
     border: 3px solid yellow;
@@ -173,7 +173,7 @@ p{
     justify-content: center;
     align-items: center;
 }
-.button1:hover{
+.button1:hover, button:hover{
     background-color: yellow;
     font: black;
     transition: all 0.35s ease;
@@ -202,7 +202,7 @@ p{
     justify-content: flex-start;
     align-items: center;
 }
-.button:focus{
+.button:focus, button:focus{
     outline:0;
 }
 .container-cv{
@@ -396,12 +396,29 @@ input[type=text]{
     border: none;
     background: #f1f1f1;
     font-family: Montserrat-Regular;
-  }
+}
   
 input[type=text]:focus{
     background-color: #ddd;
     outline: none;
 } 
+textarea[name=message]{
+    resize: vertical;
+    overflow: auto;
+}
+textarea{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-family: Montserrat-Regular;  
+}
+textarea:focus{
+    background-color: #ddd;
+    outline: none;
+}
 .container-contact .form .form-container b{
     font-family: Montserrat-Regular;
     font-weight: bold;
