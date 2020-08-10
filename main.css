@@ -469,10 +469,12 @@ input[type=text]:focus{
         background-color: #d1d1d1;
         border: none;
         outline: none;
+        overflow: hidden;
+        align-content: center;
     }
     html, body{
         height: 100%;
-        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
     }
     .logo, .logo img, .logo a, .container-sc a{
@@ -482,11 +484,10 @@ input[type=text]:focus{
         display: none;
     }
     .container-sc{
-        position: fixed;
-        padding-top:20px;
+        align-items: center;
         right:0;
         top:0;
-        padding-right: 20px;
+        padding-right: 30px;
         background-color: #d1d1d1 ;
     }
     .container-sc img{
@@ -495,10 +496,6 @@ input[type=text]:focus{
     }
     hr{
         display: none;
-    }
-    .container-2 .container-img img{
-        float: center;
-        padding-left: 10px;
     }
     .container-2{
         display: grid;
@@ -523,6 +520,21 @@ input[type=text]:focus{
         grid-column-end:2;
         grid-row-start:3;
         grid-row-end: 4;
+    }
+    .text h1{
+        margin-top: 20px;
+        font-size: 1em;
+    }
+    .text h2{
+        font-size: 1.7em;
+    }
+    .container-img img{
+        width: 100%;
+        height: 370px;
+        padding-right: 0px;
+        display: block;
+        margin: 0 auto;
+        float: none;
     }
     .text-info{
         text-align: center;
