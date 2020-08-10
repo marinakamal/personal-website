@@ -600,4 +600,7 @@ input[type=text]:focus{
     .container-contact .form{
         margin-left: 20px;
     }
+    a:-webkit-any-link {
+        cursor: pointer;
+        text-decoration: none;
 }
