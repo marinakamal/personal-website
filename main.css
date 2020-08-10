@@ -50,12 +50,12 @@ header .container-sc a:active{
     height: 48px;
 }
 @font-face{
-    font-family: Montserrat;
+    font-family: Montserrat-Medium;
     src: url(./Montserrat_Font/Montserrat-Medium.ttf);
 }
 
 @font-face{
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold';
     src: url(./Montserrat_Font/Montserrat-Bold.ttf);
 }
 .container-2{
@@ -131,13 +131,13 @@ p{
 .opp{
     color:black;
     font-size:30px;
-    font-family:Montserrat-Bold;
+    font-family:'Montserrat-Bold';
 }
 
 .digital{
     font-weight: bold;
     background-color: yellow;
-    font-family:Montserrat-Bold;
+    font-family:'Montserrat-Bold';
 }
 
 .big{
@@ -164,7 +164,7 @@ p{
     background-color:#E9E9E9;
     border: 3px solid yellow;
     border-width: 0px 5px;
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold';
     letter-spacing: 0.15rem;
     justify-content: center;
     align-items: center;
