@@ -464,7 +464,7 @@ input[type=text]:focus{
     width: device-width ;
     zoom: 1.0 ;
 }
-@media only screen and (max-width: 480px) and (orientation: portrait){
+@media only screen and (max-width: 670px) and (orientation: portrait){
     header{
         display: inline-flex;
         justify-content: space-between;
