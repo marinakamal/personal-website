@@ -51,12 +51,12 @@ header .container-sc a:active{
 }
 @font-face{
     font-family: Montserrat;
-    src: url(./Montserrat-Medium.ttf);
+    src: url(./Montserrat_Font/Montserrat-Medium.ttf);
 }
 
 @font-face{
     font-family: Montserrat-Bold;
-    src: url(./Montserrat-Bold.ttf);
+    src: url(./Montserrat_Font/Montserrat-Bold.ttf);
 }
 .container-2{
     display: grid;
@@ -230,11 +230,11 @@ p{
 }
 @font-face{
     font-family: Montserrat-Light-Italic;
-    src: url(./Montserrat-LightItalic.ttf);
+    src: url(./Montserrat_Font/Montserrat-LightItalic.ttf);
 }
 @font-face{
     font-family: Montserrat-Regular;
-    src: url(./Montserrat-Regular.ttf);
+    src: url(./Montserrat_Font/Montserrat-Regular.ttf);
 }
 .container-cv .row-1 .education p{
     font-size: 12px;
