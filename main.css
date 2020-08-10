@@ -1,0 +1,587 @@
+/* Default */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #E9E9E9;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+hr{
+    border-color: black;
+    border-width: 2px;
+}
+header .container-sc a:hover{
+    opacity:.5;
+    transition: opacity 0.35s ease;
+}
+header .container-sc a:active{
+    opacity: .5;
+}
+.container .logo a:hover{
+    opacity:.5;
+    transition: opacity 0.35s ease;
+}
+.container .logo a:active{
+    opacity:.5;
+}
+.container-sc img {
+    width: 43.19px;
+    height: 43.19px;
+    padding-left: 10px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}  
+.nmklogo img{
+    width: 100px;
+    height: 48px;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(./Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(./Montserrat-Bold.ttf);
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+    grid-template-rows: repeat (2, 200px);
+}
+.container-img{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end: 3;
+    margin-right: 20px;
+    height: auto;
+    width: auto;
+}
+.container-img img{
+    height: 550px;
+    width: 550px;
+    padding-right: 10px;
+    border-radius: 5%;
+    float: right;
+}
+.text{
+    color: black;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end: 2;
+    font-family: Montserrat;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.text h1{
+    color: black;
+    font-size: 25px;
+    left: 1.25em;
+}
+.text h2{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.text-info{
+    color: black;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end: 3;
+    font-family: Montserrat;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.text-info p{
+    margin-bottom: 25px;
+}
+p{
+    color: black;
+    font-size: 30px;
+}
+.text h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.text h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.opp{
+    color:black;
+    font-size:30px;
+    font-family:Montserrat-Bold;
+}
+
+.digital{
+    font-weight: bold;
+    background-color: yellow;
+    font-family:Montserrat-Bold;
+}
+
+.big{
+    line-height: 1.8;
+}
+
+.button{
+    
+    border:none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 7px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width:140px;
+    height:45px;
+    
+}
+.button1{
+    display:flex;
+    background-color:#E9E9E9;
+    border: 3px solid yellow;
+    border-width: 0px 5px;
+    font-family: Montserrat-Bold;
+    letter-spacing: 0.15rem;
+    justify-content: center;
+    align-items: center;
+}
+.button1:hover{
+    background-color: yellow;
+    font: black;
+    transition: all 0.35s ease;
+}
+.button2{
+    display:flex;
+    background-color:#E9E9E9;
+    border: 3px solid black;
+    border-width: 0px 5px;
+    font-family: Montserrat-Bold;
+    letter-spacing:0.15rem;
+    justify-content: center;
+    align-items: center;
+}
+.button2:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.35s ease;
+
+}
+.container-button{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button:focus{
+    outline:0;
+}
+.container-cv{
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    grid-template-rows: repeat (3, 200px);
+}
+.row-1{
+    color: black;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end: 4;
+
+}
+.row-1 img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+.row-1 .container-button{
+    margin-top: 30px;
+}
+.education{
+    margin-left: 20px;
+}
+@font-face{
+    font-family: Montserrat-Light-Italic;
+    src: url(./Montserrat-LightItalic.ttf);
+}
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(./Montserrat-Regular.ttf);
+}
+.container-cv .row-1 .education p{
+    font-size: 12px;
+    font-family: Montserrat-Light-Italic;
+    font-weight:bold;
+}
+.container-cv .row-1 .education h4{
+    font-size: 15px;
+    font-family: Montserrat-Bold;   
+}
+.desc{
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+    margin-bottom: 10px;
+}
+.row-5 .skills{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.row-5 .skills .digital{
+    font-size: 30px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, yellow 65%);
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.row-5{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: black;
+    margin-top: 40px;
+}
+.row-5 .skills .desc{
+    line-height: 1.8;
+    margin-left: 20px;
+}
+.education .digital{
+    font-size: 30px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, yellow 65%);
+    display: inline;
+    line-height: 1.5;
+}
+.row-2 .workexp .digital{
+    font-size: 30px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, yellow 65%);
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.row-2{
+    color: black;
+    margin-top: 40px;
+    margin-left:20px;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.container-cv .row-2 .workexp p{
+    font-size: 12px;
+    font-family: Montserrat-Light-Italic;
+    font-weight:bold;
+    margin-left:20px;
+}
+.workexp h4{
+    font-size: 15px;
+    font-family: Montserrat-Bold;
+    margin-left:20px;
+}
+.row-3 .projects .digital{
+    font-size: 30px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, yellow 65%);
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.row-3{
+    color: black;
+    margin-top: 40px;
+    margin-left:20px;
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.container-cv .row-3 .projects p{
+    font-size: 12px;
+    font-family: Montserrat-Light-Italic;
+    font-weight:bold;
+    margin-left:20px;
+}
+.projects h4{
+    font-size: 15px;
+    font-family: Montserrat-Bold;
+    margin-left:20px;
+}
+.row-4 .extracurricular .digital{
+    font-size: 30px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, yellow 65%);
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.row-4{
+    color: black;
+    margin-top: 40px;
+    margin-left:20px;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.container-cv .row-4 .extracurricular p{
+    font-size: 12px;
+    font-family: Montserrat-Light-Italic;
+    font-weight:bold;
+    margin-left:20px;
+}
+.extracurricular h4{
+    font-size: 15px;
+    font-family: Montserrat-Bold;
+    margin-left:20px;
+}
+.container-exp{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.row-2 .workexp .desc{
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+.row-3 .projects .desc{
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+.row-4 .extracurricular .desc{
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+    margin-bottom: 10px;
+}
+.row-5 .skills h4{
+    font-size: 15px;
+    font-family: Montserrat-Bold;
+    margin-left:20px;
+}
+input[type=text]{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-family: Montserrat-Regular;
+  }
+  
+input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+} 
+.container-contact .form .form-container b{
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+}
+.container-contact{
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    grid-template-rows: repeat (1, 200px);
+}
+.container-contact .get-in-touch{
+    color: black;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end: 2;
+}
+.container-contact .form{
+    color: black;
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end: 2;
+    margin-top: 110px;
+}
+.container-contact .get-in-touch .digital{
+    font-size: 50px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, yellow 65%);
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.container-contact .get-in-touch .opp{
+    margin-left:20px;
+    line-height: 3;
+}
+.container-contact .get-in-touch img{
+    height:18px;
+    width:18px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.container-contact .get-in-touch .emaillogo img{
+    height: 15px;
+    width: 18px;
+    padding-left:50px;
+    padding-top:10px;
+    padding-right: 10px;
+}
+.container-contact .get-in-touch p{
+    font-size: 12px;
+    font-family: Montserrat-Light-Italic;
+    font-weight:bold;
+}
+.container-contact .form p{
+    font-size: 15px;
+    font-family: Montserrat-Regular;
+}
+/*Phone Portrait*/
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+@media only screen and (max-width: 480px) and (orientation: portrait){
+    header{
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: inherit;
+        width: 100%;
+        background-color: #d1d1d1;
+        border: none;
+        outline: none;
+    }
+    html, body{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .logo, .logo img, .logo a, .container-sc a{
+        background-color: #d1d1d1;
+    }
+    .nmklogo{
+        display: none;
+    }
+    .container-sc{
+        position: fixed;
+        padding-top:20px;
+        right:0;
+        top:0;
+        padding-right: 20px;
+        background-color: #d1d1d1 ;
+    }
+    .container-sc img{
+        justify-content: right;
+        background-color: #d1d1d1;
+    }
+    hr{
+        display: none;
+    }
+    .container-2 .container-img img{
+        float: center;
+        padding-left: 10px;
+    }
+    .container-2{
+        display: grid;
+        margin:0;
+        padding: 0;
+        grid-template: auto/auto;
+    }
+    .container-2 .text{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start:1;
+        grid-row-end: 2;
+    }
+    .container-2 .container-img{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start:2;
+        grid-row-end: 3;
+    }
+    .container-2 .text-info{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start:3;
+        grid-row-end: 4;
+    }
+    .text-info{
+        text-align: center;
+    }
+    .container-button{
+        justify-content: center;
+    }
+    .container-cv{
+        display: grid;
+        margin:0;
+        padding:0;
+        grid-template: auto /auto;
+    }
+    .row-1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .row-2{
+        grid-column:1/2;
+        grid-row: 2/3;
+        margin-left: -2px;
+    }
+    .row-3{
+        grid-column:1/2;
+        grid-row: 3/4;
+        margin-left: -2px;
+    }
+    .row-4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin-left: -2px;
+    }
+    .row-5{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: -40px;
+    }
+    .row-5 .skills .digital{
+        font-size: 20px;
+    }
+    .container-contact{
+        display: grid;
+        margin:0;
+        padding:0;
+        grid-template: auto /auto;
+    }
+    .container-contact.get-in-touch{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .container-contact .form{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .container-contact .get-in-touch .opp{
+        line-height: none;
+        padding: 0;
+    }
+    .container-contact .form{
+        margin-left: 20px;
+    }
+}
