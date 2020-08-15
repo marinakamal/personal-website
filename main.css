@@ -434,6 +434,9 @@ textarea:focus{
     grid-column-end:2;
     grid-row-start:1;
     grid-row-end: 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 .container-contact .form{
     color: black;
@@ -442,6 +445,8 @@ textarea:focus{
     grid-row-start:1;
     grid-row-end: 2;
     margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container-contact .get-in-touch .digital{
     font-size: 50px;
