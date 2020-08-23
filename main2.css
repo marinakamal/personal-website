@@ -108,3 +108,10 @@ body {
     font-size: 12px;
     margin-bottom: 10px;
   }
+
+  img{
+    transition: filter 300ms;
+  }
+  img:hover{
+    filter: brightness(1.2);
+  }
