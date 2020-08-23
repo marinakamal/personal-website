@@ -54,7 +54,7 @@ header .container-sc a:active{
     height: 48px;
 }
 @font-face{
-    font-family: Montserrat-Medium;
+    font-family: 'Montserrat-Medium';
     src: url(./Montserrat_Font/Montserrat-Medium.ttf);
 }
 

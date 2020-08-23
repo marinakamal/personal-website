@@ -61,46 +61,40 @@
             </ul>
         </div>
     </nav>
-    <!--Main Section-->
+    <!-- Main Section -->
     <div class="container">
         <div class="row">
-            <!-- Heading -->
-            <div class="col-6 mt-3">
+            <div class="col-8">
                 <div class="row">
                     <div class="col-12">
-                        <h1>Hi I'm</h1><br>
-                        <h2>Nik Marina Kamal.</h2><br>
-                        <h2>Aspiring Growth Hacker.</h2><br>
+                        <h4>Contact</h4>
+                        <form style="margin-top: 20px;" action="https://formspree.io/xqkyjpbe" method="POST">
+                            <div class="form-group">
+                                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                            </div>
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName" name="name"
+                                    placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email address</label>
+                                <input type="email" class="form-control" id="inputEmail"
+                                    placeholder="youremail@example.com" name="_replyto">
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea">Message</label>
+                                <textarea name="message" class="form-control" id="textarea"
+                                    placeholder="Hi, let's get in touch" required></textarea>
+                            </div>
+                            <button class="button button1" type="submit">Send</button>
+                        </form>
                     </div>
                 </div>
-                <!-- Text-->
-
-                <!--Description-->
-                <div class="row">
-                    <div class="col-12" id="text-info">
-                        <p>Looking for my next <br>
-                            <strong>opportunity</strong> to make a change. <br>
-                            The <span style="font-weight: bold;
-                            background-color: yellow;">digital</span> way.
-                        </p><br>
-                    </div>
-
-                </div>
-                <!--Buttons to other pages-->
-                <div class="button-container">
-
-                    <button class="button button1" onclick="window.location.href='cv-page3.html';">CV</button>
-                    <button class="button button2" onclick="window.location.href='contact-page2.html';">Contact</button>
-                </div>
-            </div>
-            <!-- Image -->
-            <div class="col-6 mt-3">
-                <img class="img-fluid" src="./Images/83080809_10222075726751765_326704310937190400_o.jpg"
-                    alt="Nik Marina Kamal's Profile Picture" style="border-radius: 50%;">
             </div>
         </div>
     </div>
-
+    </div>
 </body>
 
 </html>
