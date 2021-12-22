@@ -353,7 +353,7 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 80px;
     vertical-align: middle;
     margin-right: 15px;
 }
@@ -671,7 +671,7 @@ nav#nav-mobile a:hover {
 
 .social-icons a {
     display: inline-block;
-    width: 32px;
+    width: 50px;
     text-align: center;
 }
 
@@ -684,7 +684,7 @@ nav#nav-mobile a:hover {
 }
 
 #header .social-icons {
-    margin-top: 27px;
+    margin-top: 20px;
 }
 
 /* --------- 2.6 Images ---------- */
@@ -1396,8 +1396,7 @@ blockquote {
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
