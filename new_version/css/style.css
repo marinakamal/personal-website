@@ -220,7 +220,7 @@ section {
     padding: 20px;
 }
 
-#clients .col-2-3 [class*='col-'] {
+#techstack, #projects .col-2-3 [class*='col-'] {
     padding: 0;
 }
 
@@ -1265,28 +1265,28 @@ blockquote {
     font-size: 22px;
 }
 
-/* --------- 6.4 Gallery ---------- */
+/* --------- 6.4 Projects ---------- */
 
-#gallery img {
+#projects img {
     max-height: 300px;
 }
 
-#gallery [class*='col-'] {
-    padding: 0;
+#projects [class*='col-'] {
+    padding: 20px;
 }
-
-#gallery a {
+/*
+#projects a {
     display: inline-block;
     position: relative;
     overflow: hidden;
 }
 
-#gallery a:hover img {
+#projects a:hover img {
     opacity: 0.15;
     -moz-backface-visibility: hidden;
 }
 
-#gallery a:before {
+#projects a:before {
     font-size: 2.2em;
     font-style: normal;
     font-weight: normal;
@@ -1308,11 +1308,11 @@ blockquote {
     vertical-align: middle;
 }
 
-#gallery a:hover:before {
+#projects a:hover:before {
     opacity: 1;
     top: 50%;
     left: 50%;
-}
+}*/
 
 /**
  * Featherlight – ultra slim jQuery lightbox
@@ -1672,7 +1672,7 @@ blockquote {
 
 /* --------- 6.6 Clients ---------- */
 
-#clients a {
+#techstack a, #projects a {
     display: block;
     text-align: center;
     position: relative;
@@ -1681,7 +1681,7 @@ blockquote {
     color: #fff;
 }
 
-#clients img {
+#techstack img {
     display: inline-block;
     padding: 15px 25px;
 }
@@ -1702,7 +1702,7 @@ blockquote {
     transition: all 0.3s ease-out;
 }
 
-#clients a:hover .client-overlay {
+#techstack a:hover .client-overlay, #projects a:hover .client-overlay {
     opacity: 1;
 }
 
@@ -1715,6 +1715,20 @@ blockquote {
     display: inline-block;
 }
 
+.project-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* --------- Form -------------*/
+.form-control {
+    width: 338px;
+
+}
+
+
+/* -------End of Form ---------*/
 /* --------- 6.7 Pricing Table ---------- */
 
 .pricing-block-content {
