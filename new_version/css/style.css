@@ -1704,7 +1704,6 @@ blockquote {
 
 #clients a:hover .client-overlay {
     opacity: 1;
-    visibility: visible;
 }
 
 .client-overlay span {
@@ -1714,7 +1713,6 @@ blockquote {
     width: 100%;
     text-align: center;
     display: inline-block;
-    visibility: hidden;
 }
 
 /* --------- 6.7 Pricing Table ---------- */
