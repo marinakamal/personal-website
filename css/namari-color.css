@@ -37,7 +37,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Border Color */
 
-#banner .section-heading:before, .testimonial.classic footer:before {
+.testimonial.classic footer:before {
     background: #d2b356;
 }
 
@@ -123,11 +123,12 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Banner Background and Text Colors */
 
-#banner {
-    background: url("../images/banner-images/Marina-front-page.jpg") no-repeat center top;
+#banner-content {
+    background-image: url("../images/wallpaper3-filter60.png");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size:cover;
 }
-
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */

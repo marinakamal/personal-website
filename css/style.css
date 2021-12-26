@@ -132,8 +132,8 @@ figure {
 }
 
 #wrapper {
-    margin:0 15px;
-    padding: 15px 0;
+    margin:0 50px;
+    padding: 50px 0;
     position: relative;
 }
 
@@ -1082,6 +1082,10 @@ h6 {
        width: 100%;
       padding: 4em 0 1em 0;
   }
+
+  #banner {
+      background-position: auto;
+  }
   
   .timeline li {
       padding: 2em 0;
@@ -1193,6 +1197,9 @@ h6 {
   .direction-r .desc {
       margin: 1em 4em 0 4em;
   }
+  #banner {
+    background-position: contain center;
+    }
   
   }
 
@@ -1723,7 +1730,7 @@ blockquote {
 }
 /* --------- Form -------------*/
 .form-control {
-    width: 338px;
+    width: 100%;
 
 }
 
@@ -2411,8 +2418,8 @@ blockquote {
 @media (max-width: 480px) {
 
     #wrapper {
-        margin:0;
-        padding:0;
+        margin:0 20px;
+        padding:20px 0;
     }
 
     .page-border, #scrollUp, #scrollUp:before {
@@ -2504,8 +2511,8 @@ blockquote {
 @media (min-width: 480px) and (max-width: 767px) {
 
     #wrapper {
-        margin:0;
-        padding:0;
+        margin:0 20px;
+        padding:20px 0;
     }
 
     .page-border, #scrollUp, #scrollUp:before {
@@ -2585,8 +2592,8 @@ blockquote {
 @media (min-width: 768px) and (max-width: 1024px) {
 
     #wrapper {
-        margin:0;
-        padding:0;
+        margin:0 20px;
+        padding:20px 0;
     }
 
     .page-border {
